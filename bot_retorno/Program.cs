@@ -46,7 +46,7 @@ class Program
                 Console.WriteLine($"Número: {numero} -> id_conta_rec: {contaRecInfo.IdContaRec} -> id_banco: {contaRecInfo.IdBanco} -> Valor da Conta : {valorArquivo}");
 
 
-                var receitaDados = await ContasAReceber.ContasAReceberAsync(idConta);
+                var receitaDados = await ContasAReceber.ContasAReceberAsync(idConta, accessToken, secretAccessToken);
                 if(receitaDados != null && receitaDados.Situacao != "Conta Liquidada" && receitaDados.LiquidadoRec != "Sim")
                 {
                     Console.WriteLine($"id_conta_rec: {receitaDados.IdContaRec}, Nome: {receitaDados.NomeCliente}, Valor: {receitaDados.ValorRec}, Id do banco: {contaRecInfo.IdBanco}");

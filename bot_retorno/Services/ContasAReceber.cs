@@ -11,11 +11,10 @@ namespace bot_retorno.Services
     // Esse código é responsavél por consultar a API do VHSYS, onde é passado o id_conta_rec e retornado os dados da receita.
     class ContasAReceber
     {
-        public static async Task<ReceitaDados?> ContasAReceberAsync(int idContaRec)
+        public static async Task<ReceitaDados?> ContasAReceberAsync(int idContaRec, string accessToken, string secretAccessToken)
         {
             string url = $"https://api.vhsys.com/v2/contas-receber/{idContaRec}";
-            var accessToken = "TVGHZQGKOFERELGNbSJAYBWOeVECOI";
-            var secretAccessToken = "wUX4VQuGHbvbagHyg9n9CPaNZFpOE2";
+           
 
             using var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Add("access-token", accessToken);

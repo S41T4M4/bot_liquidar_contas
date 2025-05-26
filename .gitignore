@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dbmdl
+*.vscode/
+*.log
+*.tmp
+*.DS_Store
+appsettings.json
