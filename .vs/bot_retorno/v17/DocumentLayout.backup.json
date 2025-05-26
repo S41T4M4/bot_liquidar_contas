@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\services\\liquidarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\services\\liquidarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\services\\contasareceber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\services\\contasareceber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\services\\consultaridcontarec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\services\\consultaridcontarec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\models\\liquidarreceitarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\models\\liquidarreceitarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\models\\receitadados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\models\\receitadados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\services\\extracaoidboleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\services\\extracaoidboleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\models\\contarecinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\models\\contarecinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\bot_retorno.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\bot_retorno.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\models\\titulocomvalor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\models\\titulocomvalor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|c:\\users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\converters\\decimaljsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{761CB986-65B5-44AF-ACF1-D2963B27238A}|bot_retorno\\bot_retorno.csproj|solutionrelative:bot_retorno\\converters\\decimaljsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContaRecInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\ContaRecInfo.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Models\\ContaRecInfo.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\ContaRecInfo.cs",
+              "RelativeToolTip": "bot_retorno\\Models\\ContaRecInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:00:23.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\.gitignore",
+              "RelativeDocumentMoniker": "bot_retorno\\.gitignore",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\.gitignore",
+              "RelativeToolTip": "bot_retorno\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-11T14:21:53.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "bot_retorno.csproj",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\bot_retorno.csproj",
+              "RelativeDocumentMoniker": "bot_retorno\\bot_retorno.csproj",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\bot_retorno.csproj",
+              "RelativeToolTip": "bot_retorno\\bot_retorno.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-11T14:18:33.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\appsettings.json",
+              "RelativeDocumentMoniker": "bot_retorno\\appsettings.json",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\appsettings.json",
+              "RelativeToolTip": "bot_retorno\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-11T13:56:51.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContasAReceber.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Services\\ContasAReceber.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Services\\ContasAReceber.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Services\\ContasAReceber.cs",
+              "RelativeToolTip": "bot_retorno\\Services\\ContasAReceber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:28:55.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsultarIdContaRec.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Services\\ConsultarIdContaRec.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Services\\ConsultarIdContaRec.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Services\\ConsultarIdContaRec.cs",
+              "RelativeToolTip": "bot_retorno\\Services\\ConsultarIdContaRec.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:26:52.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExtracaoIdBoleto.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Services\\ExtracaoIdBoleto.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Services\\ExtracaoIdBoleto.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Services\\ExtracaoIdBoleto.cs",
+              "RelativeToolTip": "bot_retorno\\Services\\ExtracaoIdBoleto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:22:44.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LiquidarReceita.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Services\\LiquidarReceita.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Services\\LiquidarReceita.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Services\\LiquidarReceita.cs",
+              "RelativeToolTip": "bot_retorno\\Services\\LiquidarReceita.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:20:25.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TituloComValor.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\TituloComValor.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Models\\TituloComValor.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\TituloComValor.cs",
+              "RelativeToolTip": "bot_retorno\\Models\\TituloComValor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T13:34:32.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LiquidarReceitaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\LiquidarReceitaRequest.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Models\\LiquidarReceitaRequest.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\LiquidarReceitaRequest.cs",
+              "RelativeToolTip": "bot_retorno\\Models\\LiquidarReceitaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T12:30:55.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Models\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "bot_retorno\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T12:00:58.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DecimalJsonConverter.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Converters\\DecimalJsonConverter.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Converters\\DecimalJsonConverter.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Converters\\DecimalJsonConverter.cs",
+              "RelativeToolTip": "bot_retorno\\Converters\\DecimalJsonConverter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T11:15:23.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReceitaDados.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\ReceitaDados.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Models\\ReceitaDados.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Models\\ReceitaDados.cs",
+              "RelativeToolTip": "bot_retorno\\Models\\ReceitaDados.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAADwv6QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T13:26:52.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Program.cs",
+              "RelativeDocumentMoniker": "bot_retorno\\Program.cs",
+              "ToolTip": "C:\\Users\\ibrai\\source\\repos\\bot_retorno\\bot_retorno\\Program.cs*",
+              "RelativeToolTip": "bot_retorno\\Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:59:21.569Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
