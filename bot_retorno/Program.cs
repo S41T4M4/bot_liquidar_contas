@@ -22,6 +22,8 @@ class Program
 
     static async Task Main(string[]args)
     {
+
+        // Caminho do arquivo HTML que contém os boletos.
         string htmlFilePath = "C:\\Users\\ibrai\\OneDrive\\Imagens\\teste.xls";
         var config = new ConfigurationBuilder()
           .SetBasePath(Directory.GetCurrentDirectory()) 
@@ -32,6 +34,8 @@ class Program
         string accessToken = config["VHSYS:AccessToken"]!;
         string secretAccessToken = config["VHSYS:SecretToken"]!;
 
+        // Extrai os números dos boletos com desconto do arquivo HTML.
+
         var numerosFiltrados = ExtracaoIdBoleto.ExtrairNumerosComDesconto(htmlFilePath);
         Console.WriteLine($"Total de títulos extraídos: {numerosFiltrados.Count}");
         foreach (var titulo in numerosFiltrados) 
@@ -39,13 +43,13 @@ class Program
             Console.WriteLine($"Número extraído: {titulo.SeuNumero}, Valor: {titulo.Valor}");
             var numero = titulo.SeuNumero;
             var valorArquivo = titulo.Valor;
-
+          
             var contaRecInfo = await ConsultarIdContaRec.ConsultarIdContaRecAsync(connectionString, numero);
             if (contaRecInfo != null && int.TryParse(contaRecInfo.IdContaRec, out int idConta))
             {
                 Console.WriteLine($"Número: {numero} -> id_conta_rec: {contaRecInfo.IdContaRec} -> id_banco: {contaRecInfo.IdBanco} -> Valor da Conta : {valorArquivo}");
 
-
+                // Aqui é consultado o id_conta_rec na api do vhsys, e retornado dados da receita
                 var receitaDados = await ContasAReceber.ContasAReceberAsync(idConta, accessToken, secretAccessToken);
                 if(receitaDados != null && receitaDados.Situacao != "Conta Liquidada" && receitaDados.LiquidadoRec != "Sim")
                 {
@@ -60,7 +64,7 @@ class Program
                         IdBanco = contaRecInfo.IdBanco
 
                     };
-                 
+                   // Aqui é liquidado a receita
                     var sucess = await LiquidarReceita.LiquidarReceitaAsync(idConta, liquidarrequest, accessToken, secretAccessToken);
                     if (sucess)
                     {
