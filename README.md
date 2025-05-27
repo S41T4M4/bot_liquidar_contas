@@ -1,8 +1,8 @@
 
 # 💳 Automação de Liquidação de Contas no VHSYS  
 
-![GitHub repo size](https://img.shields.io/github/repo-size/S41T4M4/automacao_vhsys_liquidacao)  
-![GitHub last commit](https://img.shields.io/github/last-commit/S41T4M4/automacao_vhsys_liquidacao)  
+![GitHub repo size](https://img.shields.io/github/repo-size/S41T4M4/bot_liquidar_contas)  
+![GitHub last commit](https://img.shields.io/github/last-commit/S41T4M4/bot_liquidar_contas)  
 
 Automação responsável por **liquidar automaticamente contas a receber** no VHSYS, com base em boletos extraídos de um arquivo HTML. Desenvolvida em **C# + .NET**, integrando banco de dados e API VHSYS.
 

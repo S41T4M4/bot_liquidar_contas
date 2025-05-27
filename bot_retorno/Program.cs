@@ -25,6 +25,12 @@ class Program
 
         // Caminho do arquivo HTML que contém os boletos.
         string htmlFilePath = "C:\\Users\\ibrai\\OneDrive\\Imagens\\teste.xls";
+        var extension = Path.GetExtension(htmlFilePath);
+        
+        if (extension != ".xls")
+        {
+            throw new Exception("Esse arquivo não é válido");
+        }
         var config = new ConfigurationBuilder()
           .SetBasePath(Directory.GetCurrentDirectory()) 
           .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true) 
