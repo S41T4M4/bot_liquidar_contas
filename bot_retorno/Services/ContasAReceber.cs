@@ -35,6 +35,7 @@ namespace bot_retorno.Services
                 Console.WriteLine($"Erro ao consultar a API: {e.Message}");
                 return null;
             }
+            
         }
     }
 }

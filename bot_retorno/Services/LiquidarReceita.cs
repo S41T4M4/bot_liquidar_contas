@@ -18,6 +18,7 @@ namespace bot_retorno.Services
             using HttpClient httpClient = new HttpClient();
 
             string url = $"https://api.vhsys.com/v2/contas-receber/{idContaRec}";
+            Console.WriteLine($"[DEBUG] URL da requisição: {url}");
 
             var options = new JsonSerializerOptions
             {
@@ -26,21 +27,35 @@ namespace bot_retorno.Services
             };
 
             var json = JsonSerializer.Serialize(liquidarReceitaRequest, options);
+            Console.WriteLine("[DEBUG] JSON Enviado:");
+            Console.WriteLine(json);
+
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
             httpClient.DefaultRequestHeaders.Accept.Clear();
             httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             httpClient.DefaultRequestHeaders.Add("access-token", accessToken);
             httpClient.DefaultRequestHeaders.Add("secret-access-token", secretAcessToken);
-
             httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("JcDecorBot/1.0");
 
-            var response = await httpClient.PutAsync(url, content);
+            try
+            {
+                var response = await httpClient.PutAsync(url, content);
+                string responseBody = await response.Content.ReadAsStringAsync();
 
-            string responseBody = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"[DEBUG] StatusCode: {response.StatusCode}");
+                Console.WriteLine("[DEBUG] Corpo da Resposta:");
+                Console.WriteLine(responseBody);
 
-
-            return response.IsSuccessStatusCode;
+                return response.IsSuccessStatusCode;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("[ERRO] Exceção ao fazer requisição:");
+                Console.WriteLine(ex.Message);
+                return false;
+            }
         }
     }
+
 }

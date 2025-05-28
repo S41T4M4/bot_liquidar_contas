@@ -17,6 +17,7 @@ namespace bot_retorno.Services
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 await connection.OpenAsync();
+                
 
                 string query = "SELECT id_conta_rec, id_banco FROM CR1 WHERE id_boleto = @id_boleto";
 
