@@ -23,9 +23,11 @@ class Program
 
     static async Task Main(string[] args)
     {
-
+        List<string> boletosNaoEncontrados = new List<string>();
+        List<string> boletosJaLiquidados = new List<string>();
+        List<string> boletosLiquidadosSucesso = new List<string>();
         // Caminho do arquivo HTML que contém os boletos.
-        string htmlFilePath = "C:\\Users\\ibrai\\OneDrive\\Imagens\\TitulosBaixadosLiquidados.xls";
+        string htmlFilePath =@"C:\Users\ibrai\OneDrive\Imagens\TitulosBaixadosLiquidados.xls";
         if (!Path.Exists(htmlFilePath))
         {
             Console.WriteLine($"Arquivo HTML não encontrado: {htmlFilePath}");
@@ -47,11 +49,18 @@ class Program
         foreach (var titulo in numerosFiltrados)
         {
                 
-            Console.WriteLine($"Número extraído: {titulo.SeuNumero}, Valor: {titulo.Valor}");
+            Console.WriteLine($"Número extraído: {titulo.SeuNumero}, Valor: {titulo.Valor} ");
             var numero = titulo.SeuNumero;
             var valorArquivo = titulo.Valor;
 
             var contaRecInfo = await ConsultarIdContaRec.ConsultarIdContaRecAsync(connectionString, numero);
+            if (contaRecInfo == null)
+            {
+            
+                boletosNaoEncontrados.Add(numero);
+                continue; 
+            }
+
             if (contaRecInfo != null && int.TryParse(contaRecInfo.IdContaRec, out int idConta))
             {
                 Console.WriteLine($"Número: {numero} -> id_conta_rec: {contaRecInfo.IdContaRec} -> id_banco: {contaRecInfo.IdBanco} -> Valor da Conta : {valorArquivo}");
@@ -75,20 +84,46 @@ class Program
                     var sucess = await LiquidarReceita.LiquidarReceitaAsync(idConta, liquidarrequest, accessToken, secretAccessToken);
                     if (sucess)
                     {
+                        boletosLiquidadosSucesso.Add(numero);
                         Console.WriteLine($"Conta {contaRecInfo.IdContaRec} liquidada com sucesso. {contaRecInfo.IdBanco}");
+                        Console.WriteLine("------------------------------------------------------------------------------");
                     }
                     else
                     {
                         Console.WriteLine($"Falha ao liquidar a conta {contaRecInfo.IdContaRec}.");
+                        Console.WriteLine("------------------------------------------------------------------------------");
                     }
                 }
                 else
                 {
+                    boletosJaLiquidados.Add(numero);
                     Console.WriteLine($"A conta: {contaRecInfo.IdContaRec} já foi liquidada !");
+                    Console.WriteLine("------------------------------------------------------------------------------");
                 }
+                
             }
+           
+
 
         }
+        Console.WriteLine($"Boletos não encontrados: {boletosNaoEncontrados.Count}");
+        foreach (var boletoNaoEncontrado in boletosNaoEncontrados)
+        {
+            Console.WriteLine($"[{boletoNaoEncontrado}]");
+        }
+        Console.WriteLine("------------------------------------------------------------------------------");
+        Console.WriteLine($"Boletos já liquidados: {boletosJaLiquidados.Count}");
+        foreach (var boletoLiquidados in boletosJaLiquidados)
+        {
+            Console.WriteLine($"[{boletoLiquidados}]");
+        }
+        Console.WriteLine("------------------------------------------------------------------------------");
+        Console.WriteLine($"Boletos liquidados com sucesso: {boletosLiquidadosSucesso.Count}");
+        foreach (var boletoLiquidados in boletosLiquidadosSucesso)
+        {
+            Console.WriteLine($"[{boletoLiquidados}]");
+        }
+
     }
 }
     

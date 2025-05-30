@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bot_retorno")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f36ba831b9077d5117cf87d69c3340300af9421")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f70ecbaece0d570c52fcfa85134852efe5cffe6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("bot_retorno")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bot_retorno")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

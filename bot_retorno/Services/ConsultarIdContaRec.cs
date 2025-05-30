@@ -16,14 +16,13 @@ namespace bot_retorno.Services
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
+               
                 await connection.OpenAsync();
-                
-
                 string query = "SELECT id_conta_rec, id_banco FROM CR1 WHERE id_boleto = @id_boleto";
-
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@id_boleto", numero);
+                    
 
                     using (SqlDataReader reader = await command.ExecuteReaderAsync())
                     {
@@ -33,12 +32,17 @@ namespace bot_retorno.Services
                             string idBanco = reader["id_banco"].ToString()!;
                             return new ContaRecInfo(idContaRec, idBanco);
                         }
+                        else
+                        {
+                            Console.WriteLine($"[Aviso] o id_boleto [{numero}] não foi encontrado no banco de dados!");
+                            Console.WriteLine("------------------------------------------------------------------------------");
+                            
+                        }
                     }
                 }
+                return null;
             }
-
-            return null;
+            
         }
     }
-
 }
